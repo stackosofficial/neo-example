@@ -1,0 +1,87 @@
+@import "~antd/dist/antd.css";
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#root {
+  height: 100%;
+}
+
+.ant-layout-has-sider {
+  height: 100%;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.top-btn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 20px !important;
+}
+
+.btt {
+  margin: 20px 0px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid grey;
+  filter: drop-shadow(2px 4px 6px grey);
+}
+
+h1 {
+  margin: 0px;
+}
+
+th,
+td {
+  text-align: center;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+table {
+  margin-top: 20px;
+}
